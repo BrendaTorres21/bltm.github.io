@@ -27,7 +27,7 @@ nav {
 
 header.abajo nav {
     display: flex;
-    background: rgb(217, 27, 92, 0.9);
+    background: rgb(212, 19, 103, 0.9);
     transition: 0.5s;
 }
 
@@ -74,7 +74,7 @@ button.navbar-toggler {
 
 .carousel-caption hr {
     max-width: 30%;
-    border-top: 2px solid rgb(217, 27, 92, 1);
+    border-top: 2px solid rgb(212, 19, 103, 1);
     margin: 1% 0 1% 35%;
     opacity: 100;
 }
@@ -97,8 +97,8 @@ p.subtitle {
 button.unete {
     width: 80px;
     height: 30px;
-    background-color: rgb(217, 27, 92, 1);
-    border: 1px solid rgb(217, 27, 92, 1);
+    background-color: rgb(212, 19, 103, 1);
+    border: 1px solid rgb(212, 19, 103, 1);
     border-radius: 7px;
     padding: 0px 0px;
     justify-self: center;
@@ -107,12 +107,12 @@ button.unete {
 }
 
 .btn {
-    background-color: rgb(217, 27, 92, 1);
+    background-color: rgb(212, 19, 103, 1);
     color: white;
 }
 
 .border-bottom {
-    color: rgb(217, 27, 92, 1);
+    color: rgb(212, 19, 103, 1);
     vertical-align: inherit;
 }
 
@@ -169,7 +169,7 @@ p.causes-text {
     justify-content: center;
     padding: 0 10px;
     width: 60%;
-    background-color: rgb(217, 27, 92, 1);
+    background-color: rgb(212, 19, 103, 1);
 }
 
 .nosotros-img {
@@ -226,11 +226,11 @@ p.causes-text {
 .general-item i {
     width: 100%;
     text-align: center;
-    color: rgb(217, 27, 92, 1);
+    color: rgb(212, 19, 103, 1);
     
 }
 
-.general-item #number {
+.general-item .number {
     margin: 7px 0;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ p.causes-text {
     color: #ffffff;
 }
 
-.general-item #descripcion {
+.general-item .descripcion {
     width: 100%;
     margin: 0;
     color: #ffffff;
@@ -282,7 +282,7 @@ p.causes-text {
     grid-gap: 0.5rem;
 }
 
-#img-gallery {
+.img-gallery {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -302,7 +302,6 @@ p.causes-text {
     background-image: url(./imagenes/contact-foto.jpg);
     background-size: cover;
     background-position: 0 30%;
-    opacity: 0.75;
     justify-content: space-between;
     align-items: center;
 }
@@ -322,12 +321,12 @@ p.causes-text {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    background-color: rgb(217, 27, 92, 1);
+    background-color: rgb(212, 19, 103, 1);
     color: #ffffff;
     border: none;
 }
 
-.mensaje p {
+.mensaje span {
     text-decoration: none;
     color: #ffffff;
     margin: 0 10px 5px 10px;
@@ -350,7 +349,7 @@ p.causes-text {
 }
 
 .red i {
-    color: rgb(217, 27, 92, 1);
+    color: rgb(212, 19, 103, 1);
 }
 
 .red h3 {
@@ -675,6 +674,34 @@ footer .piedepagina {
     .container-fluid .unete .btn {
         width: 80px;
         font-size: 6px;
+    }
+
+    #peace {
+        width: 90px;
+    }
+    
+    #prevention {
+        width: 90px;
+    }
+    
+    #water {
+        width: 90px;
+    }
+    
+    #maternal {
+        width: 90px;
+    }
+    
+    #education {
+        width: 90px;
+    }
+    
+    #economy {
+        width: 90px;
+    }
+    
+    #environment {
+        width: 90px;
     }
 
     #nosotros h2{
