@@ -374,7 +374,7 @@ p.causes-text {
     width: 30%;
     display: flex;
     margin: 0;
-    padding: 50px 20px;
+    padding: 20px 20px;
     flex-direction: column;
 }
 
@@ -710,9 +710,15 @@ footer .piedepagina {
     #info {
         flex-direction: column;
         width: 100%;
+        justify-self: center;
+        align-items: center;
     }
 
     .box-info {
         width: 100%;
+    }
+
+    #master-mark {
+        width: 40%;
     }
 }
